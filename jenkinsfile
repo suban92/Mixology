@@ -4,11 +4,11 @@ pipeline {
 
         stage('Build'){
             steps{
-                sh ''' sudo chmod 666 /var/run/docker.sock
+                sh ''' 
                     docker-compose down --rmi all
                     docker-compose build
-                    sudo docker login -u suban92 -p Xconcept7
-                    sudo docker-compose push
+                    docker login -u suban92 -p Xconcept7
+                    docker-compose push
                     '''
             }
         }
