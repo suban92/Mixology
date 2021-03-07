@@ -4,8 +4,9 @@ app = Flask(__name__)
 
 @app.route('/spirit', methods=['GET'])
 def spirit():
-    spirit = ("vodka", "gin", "rum", "whiskey", "cognac", "Tequila","Jenever", "liquers")
-    return Response(random.choices(spirit), mimetype="text/plain")
+    spirit_List = ("vodka", "gin", "rum", "whiskey", "cognac", "Tequila","Jenever", "liquers")
+    spirit = spirit_List[random.randrange(0,7)]
+    return Response(spirit, mimetype="text/plain")
 
 
 if __name__ == "__main__":

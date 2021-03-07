@@ -1,25 +1,17 @@
-#from unittest.mock import patch
-#from flask import url_for, Response, request
-#from flask_testing import TestCase
+import unittest
+from unittest.mock import patch
+from flask import url_for, Response, request
+from flask_testing import TestCase
 
-#from application import app
+from app import app
 
-#class TestBase(TestCase):
-#    def create_app(self):
-#        return app
+class TestBase(TestCase):
+    def create_app(self):
+        return app
 
-#class TestResponse(TestBase):
-#    def rand_face(self):
-#        card_faces = [b"Ace", b"King", b"Queen", b"Jack"]
-#        response = self.client.get(url_for("card_number"))
-#        self.assertIn(response.data, card_faces)
-
-#class TestResponse(TestBase):
-#    def test_spirit_on_page(self):
-#        with patch("requests.get") as g:
-#            with patch("request.get") as g:
-#                g.return_value.text - "spirit"
-#                g.return-value.text - "mixer"
-
-                reponse = self.client.get(url_for("index"))
-                self.assertIn(b'spirit combined mixer', response.data)
+class TestService2(TestBase):
+    def test_spirit(self):
+        with patch("random.randrange") as r:
+            r.return_value = 5
+            response = self.client.get(url_for("spirit"))
+            self.assertIn(b"Tequila", response.data)
