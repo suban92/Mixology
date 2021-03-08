@@ -1,4 +1,4 @@
-![trello](img/trello.png)
+![](img/trello.png)
 # **Mixology** #
 
 ##1. **Project Brief** ##
@@ -11,7 +11,7 @@ For this project, I have created an app that randomly generates an alcoholic bev
 
 The diagram below shows the complex architecture behind this app and how they work together to successfully execute this app.
 
-!design2](img/design.png)
+![design2](img/design.png)
 
 ![nginx1](img/nginx#1.png)
 ![nginx2](img/nginx#2.png)
