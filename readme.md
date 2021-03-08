@@ -1,9 +1,10 @@
-![trello](img/trello.png)
+![trello](img/trello.PNG)
 # **Mixology** #
 
 ##1. **Project Brief** ##
 The overall objective for this project, as highlighted in the project brief, is to create a service-oriented architecture for my application using the core modules covered, during training, and all the relevant technologies that will enable the app to perform successfully. Throughout this project I have had the opportunity to utilise a number of supporting tools and technologies. More details on how these technologies have been utilised and implemented can be found in the CI/CD Pipeline provided in this report.
-
+![Tool](img/toolsused.PNG)
+![dockerhub](img/docker hub service 1-4.PNG)
 
 ## **2. Architecture of mixology**
 
@@ -11,19 +12,19 @@ For this project, I have created an app that randomly generates an alcoholic bev
 
 The diagram below shows the complex architecture behind this app and how they work together to successfully execute this app.
 
-![design2](img/design.png)
+![design2](img/design.PNG)
 
-![nginx1](img/nginx#1.png)
-![nginx2](img/nginx#2.png)
+![nginx1](img/nginx#1.PNG)
+![nginx2](img/nginx#2.PNG)
 
 As you can see my app provides the user with a random alcoholic bevarage and a mixer every time they refreshes the page. I have evidenced my application working in the master GCP with 2 screen shots of this showing 2 different beverages. i have also evidenced my application working with in the Ansible GCP server.
-![ansible1](img/ansible#1.png)
-![ansible2](img/ansible#2.png)
+![ansible1](img/ansible#1.PNG)
+![ansible2](img/ansible#2.PNG)
 
 
 ## **3. Risk Assesment**
 
-![assesment](img/risk.png)
+![assesment](img/risk.PNG)
 
 
 
@@ -33,8 +34,8 @@ The testing software used for this project was Pytesting- a framework that makes
 
 As evidenced below, the testing passed and I was able to achieve a coverage of 88% 
 
-![test_1](img/test1.png)
-![test_2](img/test2.png)
+![test_1](img/test1.PNG)
+![test_2](img/test2.PNG)
 
 ##  Evaluation
 
