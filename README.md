@@ -1,4 +1,4 @@
-![](img/trello.png)
+![trello](img/trello.png)
 # **Mixology** #
 
 ##1. **Project Brief** ##
