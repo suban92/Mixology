@@ -4,7 +4,7 @@
 ##1. **Project Brief** ##
 The overall objective for this project, as highlighted in the project brief, is to create a service-oriented architecture for my application using the core modules covered, during training, and all the relevant technologies that will enable the app to perform successfully. Throughout this project I have had the opportunity to utilise a number of supporting tools and technologies. More details on how these technologies have been utilised and implemented can be found in the CI/CD Pipeline provided in this report.
 ![Tool](img/toolsused.PNG)
-![dockerhub](img/docker hub service 1-4.PNG)
+![dockerhub](img/4dockerhubservices.PNG)
 
 ## **2. Architecture of mixology**
 
@@ -14,12 +14,12 @@ The diagram below shows the complex architecture behind this app and how they wo
 
 ![design2](img/design.PNG)
 
-![nginx1](img/nginx#1.PNG)
-![nginx2](img/nginx#2.PNG)
+![nginx1](img/nginx1.PNG)
+![nginx2](img/nginx2.PNG)
 
 As you can see my app provides the user with a random alcoholic bevarage and a mixer every time they refreshes the page. I have evidenced my application working in the master GCP with 2 screen shots of this showing 2 different beverages. i have also evidenced my application working with in the Ansible GCP server.
-![ansible1](img/ansible#1.PNG)
-![ansible2](img/ansible#2.PNG)
+![ansible1](img/ansible1.PNG)
+![ansible2](img/ansible2.PNG)
 
 
 ## **3. Risk Assesment**
