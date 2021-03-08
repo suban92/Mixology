@@ -1,4 +1,4 @@
-![project logo](img/trello.png)
+![trello](img/trello.png)
 # **Mixology** #
 
 ##1. **Project Brief** ##
@@ -11,19 +11,19 @@ For this project, I have created an app that randomly generates an alcoholic bev
 
 The diagram below shows the complex architecture behind this app and how they work together to successfully execute this app.
 
-![project logo](img/design.png)
+!design2](img/design.png)
 
-![project logo](img/nginx#1.png)
-![project logo](img/nginx#2.png)
+![nginx1](img/nginx#1.png)
+![nginx2](img/nginx#2.png)
 
 As you can see my app provides the user with a random alcoholic bevarage and a mixer every time they refreshes the page. I have evidenced my application working in the master GCP with 2 screen shots of this showing 2 different beverages. i have also evidenced my application working with in the Ansible GCP server.
-![project logo](img/ansible#1.png)
-![project logo](img/ansible#2.png)
+![ansible1](img/ansible#1.png)
+![ansible2](img/ansible#2.png)
 
 
 ## **3. Risk Assesment**
 
-![project logo](img/risk.png)
+![assesment](img/risk.png)
 
 
 
@@ -33,8 +33,8 @@ The testing software used for this project was Pytesting- a framework that makes
 
 As evidenced below, the testing passed and I was able to achieve a coverage of 88% 
 
-![project logo](img/test1.png)
-![project logo](img/test2.png)
+![test_1](img/test1.png)
+![test_2](img/test2.png)
 
 ##  Evaluation
 
